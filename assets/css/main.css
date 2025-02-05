@@ -50,6 +50,22 @@ body {
     object-fit: cover;
 }
 
+.image.project {
+	display: block;
+	margin: 4rem 0;
+	width: 100%;
+	border: 2px solid black; 
+}
+
+.image.project:first-child {
+	margin-top: 0;
+}
+
+.image.project img {
+	width: 100%;
+	border: 2px solid black; 
+}
+
 ol, ul {
 	list-style: none;
 }
