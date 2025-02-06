@@ -42,6 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto; /* Center the container itself */
+	border: 2px solid black;
 }
 
 .circular-image {
@@ -2655,6 +2656,8 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			height: 300px;
+			border: 2px solid black;
 		}
 
 			.image.fit:first-child {
@@ -2663,6 +2666,9 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 100%; 
+				object-fit: cover;
+				border: 2px solid black; 
 			}
 
 		.image.main {
